@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>JavaScript Variable</title>
+        <title>JavaScript Type Casting</title>
     <head>
     <body>
         <script language="JavaScript">
@@ -8,7 +8,10 @@
             sesuatu = 14;
             document.write("Variabel sesuatu bertipe : " + typeof(sesuatu));
             document.write("<br />");
-            sesuatu = "ada deh..";
+            sesuatu = String(sesuatu);
+            document.write("Variabel sesuatu bertipe : " + typeof(sesuatu));
+            document.write("<br />");
+            sesuatu = Boolean(sesuatu);
             document.write("Variabel sesuatu bertipe : " + typeof(sesuatu));
         </script>
     </body>
